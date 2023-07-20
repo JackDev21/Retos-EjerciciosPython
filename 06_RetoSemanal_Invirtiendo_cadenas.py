@@ -22,7 +22,7 @@ def Palabra_Invertida(cadena):
     # Iteramos sobre cada letra en la cadena original
     for letra in cadena:
         # Agregamos cada letra al inicio de la cadena invertida, si fuera cadena_invertida + letra se quedaria igual la palabra.
-        cadena_invertida = letra + cadena_invertida
+        cadena_invertida = letra + cadena_invertida 
     # Devolvemos la cadena invertida
     return cadena_invertida
 
